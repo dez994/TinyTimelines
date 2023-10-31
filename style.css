@@ -4,25 +4,37 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    flex: auto;
     /* border: solid red 5px; */
 }
 
-.header, .hero {
+.header, .hero{
     display: flex;
+    flex-direction: row;
     margin: auto 300px auto 300px;
+    padding-bottom: 50px;
+    gap: 15px;
 }
 
-.push {
+.para { 
     display: flex;
-    width: 60px;
-    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 10px;
+    
+
 }
+
+.header, .navigator {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 
 .first {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: palevioletred;
+    padding-top: 30px;
 }
 
 .logostyle {
@@ -32,21 +44,32 @@
 
 .selectors {
     color: white;
-    background-color: #1f2937;
+    background-color: palevioletred;
 }
 
 .main {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .secondary {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .signup {
-    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdd835;
+    border-radius: 10px;
+    border: solid white 2px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    
 }
 
 .info {
@@ -88,6 +111,13 @@ h3 {
     color: #1f2937;
     font-weight: 900;
 }
+
+.lucy {
+    height: auto;
+    width: 350px;
+    border: solid white 10px;
+}
+
 
 
 
