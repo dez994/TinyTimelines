@@ -2,12 +2,10 @@
 
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
     /* border: solid red 5px; */
 }
 
-.header, .hero{
+.header, .hero {
     display: flex;
     flex-direction: row;
     margin: auto 300px auto 300px;
@@ -19,11 +17,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
-
 }
 
 .header, .navigator {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
@@ -40,9 +37,14 @@
 .logostyle {
     font-size: 24px;
     color: #f9faf8;
+    width: 200px;
+    height: 100px;
 }
 
 .selectors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: palevioletred;
 }
@@ -74,15 +76,24 @@
 
 .info {
     display: flex;
+    flex-direction: column;
     margin-left: 300px;
     margin-right: 300px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.imgfoot {
+    display: flex;
+}
+
 
 .review {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    height: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
 }
@@ -118,7 +129,75 @@ h3 {
     border: solid white 10px;
 }
 
+.line1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.baby1 {
+    height: auto;
+    width: 100px;
+    border: solid pink 10px;
+}
 
+.line2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.baby2 {
+    height: 195px;
+    width: 120px;
+    border: solid pink 10px;
+}
 
+.line3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.baby3 {
+    height: 195px;
+    width: 150px;
+    border: solid pink 10px;
+}
+
+.line4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.baby4 {
+    height: 195px;
+    width: 130px;
+    border: solid pink 10px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    padding: 50px;
+    border: solid lightblue 4px;
+    border-radius: 10px;
+    background: lightblue;
+}
+.prompt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foot {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background: palevioletred;
+    color: white;
+}
